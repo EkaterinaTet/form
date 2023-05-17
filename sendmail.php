@@ -9,10 +9,10 @@ require 'phpmailer/src/PHPMailer.php';
 $mail = new PHPMailer(true); //его объявление
 $mail->CharSet = 'UTF-8'; //настройка кодировки
 $mail->setLanguage('ru', 'phpmailer/language/'); //подключаем языковой файл из той же папки
-$mail->IsHTML(true); //возможность html тегов в письме
+$mail->isHTML(true); //возможность html тегов в письме
 
 //От кого письмо
-$mail->setFrom('from@example.com', 'Mailer');
+$mail->setFrom('ekaterina.psychologist98@gmail.com', 'Mailer');
 //Кому отправить(можно указать один или несколько адресатов)
 $mail->addAddress('ekaterina.psychologist98@gmail.com');
 //Тема письма
