@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         form.classList.remove("_sending");
       } else {
         //если что-то пошло не так при отправке:
-        alert("Ошибка");
+        alert("Произошла Ошибка");
         form.classList.remove("_sending");
       }
     } else {
