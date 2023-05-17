@@ -65,7 +65,7 @@ $mail->Body = $body;
 
 
 if (!$mail->send()){     
-    $message = 'Ошибка';
+    $message = 'Произошла Ошибка';
 } else {
     $message = 'Данные отправлены!';
 }
