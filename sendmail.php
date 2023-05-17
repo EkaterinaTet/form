@@ -12,9 +12,9 @@ $mail->setLanguage('ru', 'phpmailer/language/'); //подключаем язык
 $mail->IsHTML(true); //возможность html тегов в письме
 
 //От кого письмо
-$mail->setFrom('info@fls.guru', 'Фрилансер');
+$mail->setFrom('from@example.com', 'Mailer');
 //Кому отправить(можно указать один или несколько адресатов)
-$mail->addAddress('olgatetu13@mail.ru');
+$mail->addAddress('ekaterina.psychologist98@gmail.com');
 //Тема письма
 $mail->Subject = 'Привет! Это Фрилансер!';
 
