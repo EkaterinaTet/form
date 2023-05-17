@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     reader.onerror = function (e) {
       //если будет какая то ошибка, то пользователь получит сообщение об ошибке.
-      alert("Произошла Ошибка");
+      alert("Ошибка");
     };
     reader.readAsDataURL(file);
   }
