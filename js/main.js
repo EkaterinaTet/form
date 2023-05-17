@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       //проверка (если error равно 0)
       form.classList.add("_sending"); //как только мы убедились, что ошибок в валидации нет, мы сразу добавляем к форме данный класс и по этому классу, мы будем что то делать. (показать пользователю, что форма отправляется)
       //и когда форма прошла валидацию, мы будем делать отправку:
-      let response = await fetch("\codes\form\sendmail.php", {
+      let response = await fetch("\form\sendmail.php", {
         //файл sendmail.php будет возвращать некий json ответ. и если все хорошо, именно этот ответ мы и будем получать и выводить пользователю.
         //объявляем переменную response, и в нее ждем выполнение отправки методом post, данных (formData),
         method: "POST",
